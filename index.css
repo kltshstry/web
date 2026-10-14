@@ -1,2 +1,26 @@
 index.css
-h1{color: blue;}
+/* Lab 6: */
+body {
+  font-family: Arial, sans-serif;
+  background-color: blue;
+}
+
+/* ID Selector */
+#main-banner {
+    background-color: navy;
+    color: white;
+    padding: 30px;
+}
+
+/* Class Selector */
+.service-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 15px;
+    padding: 20px;
+}
+
+/* Service Titles */
+.service-box h3 {
+    font-weight: bold;
+}
