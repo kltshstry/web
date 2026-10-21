@@ -1,43 +1,45 @@
 index.css
 /* Lab 6: */
-body {
-    font-family: Arial, sans-serif;
-    background-color:aliceblue;
-}
+{ box-sizing: border-box; }
 
-header {
-    text-align: center;
-    padding: 15px;
-    background-color: black;
-    color: red;
-}
+body { font-family: Arial, sans-serif;
+      background-color:aliceblue;
+     }
 
-#main-banner {
-    background-color: red;
-    color: white;
-    padding: 30px;
-    text-align: center;
-}
+header { text-align: center;
+        padding: 15px;
+        background-color: black;
+        color: red;
+        margin-bottom: 20px;
+       }
 
-#services {
-    padding: 15px;
-    text-align: center;
-}
+#hero-banner { background-color: red;
+              color: white;
+              padding: 30px;
+              text-align: center;
+              width: 80%;
+              margin: 0 auto;
+             }
 
-.service-box {
-    background-color: green;
-    border: 1px solid black;
-    margin: 10px;
-    padding: 15px;
-    border-radius: 5px;
-}
+#services { padding: 15px;
+           text-align: center;
+          }
 
-.service-box h3 {
-    font-weight: bold;
-    color: red;
-}
-.fa-poo {
-    font-size: 30px;
-    color: brown;
-    margin: 10px;
-}
+.service { display: inline-block;
+          vertical-align: top;
+          width: 28%;
+          background-color: green;
+          border: 1px solid black;
+          margin: 10px;
+          padding: 15px;
+          border-radius: 5px;
+         }
+
+.service h2 { font-weight: bold;
+             color: red;
+            }
+
+footer { text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+       }
