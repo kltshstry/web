@@ -37,7 +37,24 @@ header { text-align: center;
     text-decoration: none;
 }
 
-#services {padding:15px;
+.security-status { background-color: yellow;
+                  color: black;
+                  text-align: center;
+                  padding: 12px;
+                  width: 100%;
+                  margin: 15px auto;
+                  animation-name: pulse;
+                  animation-duration: 2s;
+                  animation-iteration-count: infinite;
+                 }
+
+@keyframes pulse {
+      0% {opacity: 1;}
+      50% { opacity: 0.5; }
+      100% { opacity: 1; }
+}
+
+#services {padding:20px;
 text-align: center;
 display: flex;
 flex-wrap: wrap;
@@ -57,7 +74,11 @@ gap: 10px;
           margin: 10px;
           padding: 15px;
           border-radius: 5px;
+          transition: transform 0.7s, background-color 0.3s;
          }
+.service:hover { transform: scaled (1.8) translateY(-10px);
+                background-color: lightyellow;
+               }
 
 .service h2 { font-weight: bold;
              color: red;
@@ -85,8 +106,8 @@ background-color: red;
 
 .color-box { width: 50px;
 height: 50px;
-margin 10px auto;
-background-color: blue;
+margin: 20px auto;
+background-color: black;
 }
 
 @media (max-width: 150px) {
