@@ -1,6 +1,8 @@
 index.css
 
-/* Project 2: */
+/* Project 2: Nico Enterprises */
+
+/* General Page */
 *{ box-sizing: border-box; }
 
 body { font-family: Arial, sans-serif;
@@ -8,6 +10,8 @@ body { font-family: Arial, sans-serif;
       margin: 0;
      }
 
+
+/* Title Section */
 .header { text-align: center;
           padding: 20px;
           background-color: black;
@@ -16,15 +20,8 @@ body { font-family: Arial, sans-serif;
           border: 2px solid red;
          }
 
-#hero-banner { background-color: red;
-              color: white;
-              padding: 30px;
-              text-align: center;
-              width: 90%;
-              margin: 20px auto;
-              border: 2px solid black;
-             }
 
+/* Nav Section */
 .navbar { display: flex;
         justify-content: center;
         gap: 30px;
@@ -41,6 +38,19 @@ body { font-family: Arial, sans-serif;
 
 .navbar a:hover { color: red; }
 
+
+/* Main Welcome  */
+#hero-banner { background-color: red;
+              color: white;
+              padding: 30px;
+              text-align: center;
+              width: 90%;
+              margin: 20px auto;
+              border: 2px solid black;
+             }
+
+
+/* Main Content */
 .content { background-color: white;
            padding: 20px;
            margin: 20px 15px;
@@ -49,6 +59,8 @@ body { font-family: Arial, sans-serif;
 
 .content h2 { color: red; }
 
+
+/* Footer */
 footer { text-align: center;
         padding: 15px;
         margin: 20px 15px;
@@ -57,6 +69,8 @@ footer { text-align: center;
         border: 2px solid red;
        }
 
+
+/* Mobile Screen */
 @media (max-width: 600px) {
     .navbar {
         flex-direction: column;
